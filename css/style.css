@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 14px;
+    padding: 0;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="file"],
+textarea,
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+    margin: 12px;
+
+}
+
+ul {
+    margin: -20px;
+    padding-left: 838px;
+}
+
+.div1 {
+    
+    padding: 20px;
+
+}
+
+.div1 img {
+    border-radius: 6px;
+}
+
+.nav div {
+    padding-left: 190px;
+    margin-top: -38px;
+}
+
+nav {
+    background-color: deeppink;
+    height: 55px;
+    border-radius: 6px;
+}
+
+nav span {
+    padding: 20px;
+}
+
+nav span img {
+    border-radius: 100%;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+.div2{
+    margin-left: -170px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav div li {
+        visibility: hidden;
+      display: none;
+    }
+  }
